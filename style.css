@@ -1,0 +1,148 @@
+.navbar {
+  background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-color: #131313;
+  background-size: 20px 20px;
+}
+
+.jumbotron {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  margin-bottom: 0;
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.lead, .display-3 {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  font-size: 5rem;
+  background: -webkit-linear-gradient(#eee, #777);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-name: anime;
+  animation-duration: 4s;
+}
+
+.lead {
+  font-size: 3rem;
+}
+
+@keyframes anime {
+  from {opacity: 0.2;}
+  to {opacity: 1;}
+}
+
+body, html {
+  height: 100%;
+}
+
+nav {
+  width: 100%;
+}
+
+.footer-copyright {
+  color: #777;
+}
+
+.media-icon-fb {
+  height: 3rem;
+}
+
+.media-icon-gh {
+  height: 2.9rem;
+}
+
+.media-icon-fb:hover {
+  transform: rotate(-20deg);
+}
+
+.media-icon-gh:hover {
+  transform: rotate(20deg);
+}
+
+footer {
+  margin-top: 10vh;
+}
+
+.about-me-text {
+  font-size: 1.5rem;
+}
+
+.project-img {
+  width: 20vw;
+  padding: 0.8rem;
+  padding-top: 0;
+  padding-bottom: 0.1rem;
+}
+
+.project-img:hover {
+  transform: scaleY(1.05);
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-name {
+  color: white;
+  text-align: center;
+}
+
+.more {
+  color: white;
+  text-align: center;
+  margin-top: 5vh;
+  animation-name: anime;
+  animation-duration: 4s;
+}
+
+.footer-experience {
+  margin-top: 0vh;
+}
+
+.skills-container {
+  padding-left: 5vw;
+  color: #ccc;
+  font-family: monospace;
+  font-size: 1.3rem;
+}
+
+.skills {
+  list-style: none;
+  animation-name: anime;
+  animation-duration: 4s;
+}
+
+.contact-form {
+  color: #ccc;
+  margin-left: 10vw;
+  width: 85%;
+}
+
+.contact {
+  padding-top: 2vh;
+}
+
+.soon {
+  color: #777;
+}
+
+.mail:hover {
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 600px) {
+html {
+  font-size: 90%
+}
+}
