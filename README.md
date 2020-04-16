@@ -15,4 +15,4 @@ Project is created with:
 	
 ## Setup
 To run this project, please open link:
-https://mlynek600.github.io/portfolio/index.html/
+https://mlynek600.github.io/portfolio/index.html
