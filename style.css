@@ -142,7 +142,24 @@ footer {
 }
 
 @media (max-width: 600px) {
+
 html {
   font-size: 90%
+}
+
+.project-img {
+  width: 30vw;
+}
+
+.footer-experience {
+  margin-top: 30vh;
+}
+
+.contact-form {
+  margin-left: 7vw;
+}
+
+.footer-contact {
+  margin-top: 0;
 }
 }
