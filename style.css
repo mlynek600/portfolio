@@ -16,6 +16,12 @@
   margin-bottom: 0;
   width: 100%;
   padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex-grow: 1;
 }
 
 .lead, .display-3 {
@@ -71,10 +77,6 @@ nav {
   transform: rotate(20deg);
 }
 
-footer {
-  margin-top: 10vh;
-}
-
 .about-me-text {
   font-size: 1.5rem;
 }
@@ -87,7 +89,8 @@ footer {
 }
 
 .project-img:hover {
-  transform: scaleY(1.05);
+  filter: grayscale(100%);
+  transition: filter 0.5s linear;
 }
 
 .projects {
@@ -110,10 +113,6 @@ footer {
   animation-duration: 4s;
 }
 
-.footer-experience {
-  margin-top: 0vh;
-}
-
 .skills-container {
   padding-left: 5vw;
   color: #ccc;
@@ -129,12 +128,10 @@ footer {
 
 .contact-form {
   color: #ccc;
-  margin-left: 10vw;
   width: 85%;
-}
-
-.contact {
-  padding-top: 2vh;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 }
 
 .soon {
@@ -146,24 +143,18 @@ footer {
   font-size: 1.1rem;
 }
 
+@media (max-width: 1000px) {
+  .project-img {
+    width: 30vw;
+  }
+}
+
 @media (max-width: 600px) {
   html {
     font-size: 80%
   }
 
   .project-img {
-    width: 30vw;
-  }
-
-  .footer-experience {
-    margin-top: 30vh;
-  }
-
-  .contact-form {
-    margin-left: 7vw;
-  }
-
-  .footer-contact {
-    margin-top: 0;
+    width: 50vw;
   }
 }
