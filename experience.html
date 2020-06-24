@@ -1,112 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Adam Młynarczyk</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" href="img/favicon.ico">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <title>Portfolio Adam Młynarczyk</title>
-</head>
+  <body>
+    <div class="container-fluid d-flex h-100 flex-column">
+      <div class="row">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <a class="navbar-brand" href="index.html">Home</a>
 
-<body>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-  <div class="container-fluid d-flex h-100 flex-column">
-    <div class="row">
-      <nav class="navbar navbar-expand-md navbar-dark">
-        <a class="navbar-brand" href="index.html">Home</a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="experience.html">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="skills.html">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-
-    <div class="row bg-light flex-fill d-flex justify-content-start">
-      <div class="jumbotron jumbotron-fluid flex-grow">
-        <div class="container projects">
-          <div class="project1">
-            <a href="https://github.com/mlynek600/calculator">
-              <img class="project-img" src="img/calculator.png" alt="">
-            </a>
-            <p class='project-name'>Calculator</p>
-          </div>
-          <div class="project2">
-            <a href="https://github.com/mlynek600/fuel-calculator">
-              <img class="project-img" src="img/fuel.png" alt="">
-            </a>
-            <p class='project-name'>Fuel Calculator</p>
-          </div>
-          <div class="project3">
-            <a href="https://github.com/mlynek600/quiz">
-              <img class="project-img" src="img/quiz.png" alt="">
-            </a>
-            <p class='project-name'>Quiz</p>
-          </div>
-          <div class="project4">
-            <a href="https://github.com/mlynek600/tic-tac-toe">
-              <img class="project-img" src="img/tic.png" alt="">
-            </a>
-            <p class='project-name'>Tic tac toe</p>
-          </div>
-          <div class="project5">
-            <a href="https://github.com/mlynek600/landing-page-project">
-              <img class="project-img" src="img/landing.png" alt="">
-            </a>
-            <p class='project-name'>Landing page</p>
-          </div>
-          <div class="project6">
-            <a href="https://github.com/mlynek600/to-do-list">
-              <img class="project-img" src="img/to-do.png" alt="">
-            </a>
-            <p class='project-name'>To-do list</p>
-          </div>
-        </div>
-        <p class='more'>...and more on my Github profile</p>
-
-        <footer class="page-footer font-small special-color-dark pt-4 footer-experience">
-          <div class="container">
-            <ul class="list-unstyled list-inline text-center">
-              <li class="list-inline-item">
-                <a class="btn-floating mx-1" href='https://www.facebook.com/profile.php?id=100011598091427'>
-                  <img class="media-icon-fb" src="img/fb.png" alt="">
-                </a>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
               </li>
-              <li class="list-inline-item">
-                <a class="btn-floating mx-1" href='https://github.com/mlynek600'>
-                  <img class="media-icon-gh" src="img/gh.png" alt="">
-                </a>
+              <li class="nav-item">
+                <a class="nav-link" href="experience.html">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="skills.html">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
-          <div class="footer-copyright text-center py-3">© 2020 Copyright: Adam Młynarczyk</div>
-        </footer>
+        </nav>
+      </div>
+
+      <div class="row bg-light flex-fill d-flex justify-content-start">
+        <div class="jumbotron jumbotron-fluid flex-grow">
+          <div class="container projects">
+            <div class="project1">
+              <a href="https://github.com/mlynek600/react-news-app">
+                <img class="project-img" src="img/news.png" alt="" />
+              </a>
+              <p class="project-name">React news-app</p>
+            </div>
+            <div class="project2">
+              <a href="https://github.com/mlynek600/movies">
+                <img class="project-img" src="img/movies.png" alt="" />
+              </a>
+              <p class="project-name">Movies</p>
+            </div>
+            <div class="project3">
+              <a href="https://github.com/mlynek600/calculator">
+                <img class="project-img" src="img/calculator.png" alt="" />
+              </a>
+              <p class="project-name">Calculator</p>
+            </div>
+            <div class="project4">
+              <a href="https://github.com/mlynek600/fuel-calculator">
+                <img class="project-img" src="img/fuel.png" alt="" />
+              </a>
+              <p class="project-name">Fuel Calculator</p>
+            </div>
+            <div class="project5">
+              <a href="https://github.com/mlynek600/quiz">
+                <img class="project-img" src="img/quiz.png" alt="" />
+              </a>
+              <p class="project-name">Quiz</p>
+            </div>
+            <div class="project6">
+              <a href="https://github.com/mlynek600/tic-tac-toe">
+                <img class="project-img" src="img/tic.png" alt="" />
+              </a>
+              <p class="project-name">Tic tac toe</p>
+            </div>
+          </div>
+          <p class="more">...and more on my Github profile</p>
+
+          <footer
+            class="page-footer font-small special-color-dark pt-4 footer-experience"
+          >
+            <div class="container">
+              <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                  <a
+                    class="btn-floating mx-1"
+                    href="https://www.facebook.com/profile.php?id=100011598091427"
+                  >
+                    <img class="media-icon-fb" src="img/fb.png" alt="" />
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="btn-floating mx-1"
+                    href="https://github.com/mlynek600"
+                  >
+                    <img class="media-icon-gh" src="img/gh.png" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-copyright text-center py-3">
+              © 2020 Copyright: Adam Młynarczyk
+            </div>
+          </footer>
+        </div>
       </div>
     </div>
-  </div>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
